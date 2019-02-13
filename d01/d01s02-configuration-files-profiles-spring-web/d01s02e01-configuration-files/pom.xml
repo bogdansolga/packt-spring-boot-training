@@ -7,15 +7,22 @@
 
     <parent>
         <groupId>com.packt</groupId>
-        <artifactId>learning.spring.boot</artifactId>
+        <artifactId>d01s02-configuration-files-profiles-spring-web</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
-    <artifactId>d01</artifactId>
+    <artifactId>d01s02e01-configuration-files</artifactId>
     <version>0.0.1-SNAPSHOT</version>
 
     <modules>
-        <module>d01s01-intro-and-auto-configuration</module>
-        <module>d01s02-configuration-files-profiles-spring-web</module>
+        <module>d01s02e01-using-a-properties-file</module>
+        <module>d01s02e01-using-a-yaml-file</module>
     </modules>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter</artifactId>
+        </dependency>
+    </dependencies>
 </project>
