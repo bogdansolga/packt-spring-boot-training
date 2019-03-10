@@ -17,5 +17,7 @@
     <modules>
         <module>d01s01-intro-and-auto-configuration</module>
         <module>d01s02-configuration-files-profiles-spring-web</module>
+        <module>d01s03-spring-webflux-exception-and-error-handling</module>
+        <module>d01s04-database-access</module>
     </modules>
 </project>
