@@ -5,6 +5,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 /**
  * A simple Spring Boot application to demo the usage of a configuration .properties file
+ *
+ * @author bogdan.solga
  */
 @SpringBootApplication
 public class PropertiesUsageApplication {
