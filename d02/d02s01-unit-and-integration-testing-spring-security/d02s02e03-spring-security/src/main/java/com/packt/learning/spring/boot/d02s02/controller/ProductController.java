@@ -21,7 +21,7 @@ import java.util.List;
 import static com.packt.learning.spring.boot.d02s02.config.Roles.ADMIN_ROLE;
 
 @RestController
-@PreAuthorize("isAuthenticated()") // it's just an example :)
+@PreAuthorize("isAuthenticated()")
 @SuppressWarnings("unused")
 public class ProductController {
 
