@@ -7,17 +7,15 @@
 
     <parent>
         <groupId>com.packt</groupId>
-        <artifactId>learning.spring.boot</artifactId>
+        <artifactId>d02</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
-    <artifactId>d02</artifactId>
+    <artifactId>d02s04-packaging-and-running-the-app-spring-boot-admin</artifactId>
     <version>0.0.1-SNAPSHOT</version>
 
     <modules>
-        <module>d02s01-unit-and-integration-testing-spring-security</module>
-        <module>d02s02-conditional-annotations-configuration-properties-and-spring-events</module>
-        <module>d02s03-messaging-actuator-and-developer-tools</module>
-        <module>d02s04-packaging-and-running-the-app-spring-boot-admin</module>
+        <module>d02s04e01-spring-boot-maven-plugin</module>
+        <module>d02s04e02-packaging-and-running-the-app</module>
     </modules>
 </project>
