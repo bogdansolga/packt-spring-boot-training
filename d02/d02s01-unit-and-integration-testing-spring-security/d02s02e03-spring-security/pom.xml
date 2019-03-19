@@ -10,7 +10,7 @@
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
-    <artifactId>d02s02-spring-security</artifactId>
+    <artifactId>d02s02e03-spring-security</artifactId>
     <version>0.0.1-SNAPSHOT</version>
 
     <dependencies>
