@@ -1,6 +1,6 @@
 package com.packt.learning.spring.boot.d02s03.repository;
 
-import com.packt.learning.spring.boot.d02s03.model.Product;
+import com.packt.learning.spring.boot.jpa.model.Product;
 import org.springframework.data.repository.CrudRepository;
 
 /**
