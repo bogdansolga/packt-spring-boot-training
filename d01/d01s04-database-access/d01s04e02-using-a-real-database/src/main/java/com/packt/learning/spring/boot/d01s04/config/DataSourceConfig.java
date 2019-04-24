@@ -20,8 +20,8 @@ import java.util.stream.IntStream;
  * </ul>
  */
 @Configuration
-@EnableJpaRepositories(basePackages = "net.safedata.springboot.training.d02.s05.repository")
-@EntityScan(basePackages = "net.safedata.spring.training.jpa.model")
+@EnableJpaRepositories(basePackages = "com.packt.learning.spring.boot.d01s04.repository")
+@EntityScan(basePackages = "com.packt.learning.spring.boot.jpa.model")
 @EnableTransactionManagement
 public class DataSourceConfig {
 

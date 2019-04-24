@@ -1,9 +1,9 @@
 package com.packt.learning.spring.boot.d02s01;
 
 import com.packt.learning.spring.boot.d02s01.repository.ProductRepository;
-import net.safedata.spring.training.jpa.model.Product;
 import com.packt.learning.spring.boot.d02s01.dto.ProductDTO;
 import com.packt.learning.spring.boot.d02s01.service.ProductService;
+import com.packt.learning.spring.boot.jpa.model.Product;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;

@@ -31,10 +31,10 @@ import java.util.Properties;
  */
 @Configuration
 @EnableJpaRepositories(
-        basePackages = "net.safedata.springboot.training.d02.s05.repository",
+        basePackages = "com.packt.learning.spring.boot.d01s04.repository",
         transactionManagerRef = "jpaTransactionManager"
 )
-@EntityScan(basePackages = "net.safedata.spring.training.jpa.model")
+@EntityScan(basePackages = "com.packt.learning.spring.boot.jpa.model")
 @EnableTransactionManagement
 public class CustomDataSourceConfig {
 

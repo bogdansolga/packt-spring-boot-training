@@ -6,7 +6,7 @@
         </encoder>
     </appender>
 
-    <logger name="net.safedata.springboot.training" level="INFO"/>
+    <logger name="com.packt.learning.spring.boot" level="INFO"/>
 
     <logger name="org.springframework" level="WARN"/>
 

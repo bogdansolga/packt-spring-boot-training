@@ -16,7 +16,7 @@ import javax.annotation.PostConstruct;
  * </ul>
  */
 @Configuration
-@EnableJpaRepositories(basePackages = "net.safedata.springboot.training.d03.s04.repository")
+@EnableJpaRepositories(basePackages = "com.packt.learning.spring.boot.d02s03.repository")
 public class DataSourceConfig {
 
     private final ProductService productService;
